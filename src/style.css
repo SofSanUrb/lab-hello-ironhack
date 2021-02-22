@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Raleway:wght@800&display=swap');
+
+
+body {
+    font-family: "Heebo";
+}
+.section1 {
+    background-color:#162947;
+    background-image: url("/images/react-logo.svg");
+    
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    padding: 15px 50px;
+}
+
+.maintitle {
+    padding: 15px 50px;
+    color:white;
+    width: 280px;
+    
+}
+
+.maintitle p {
+    margin-top: 5px;
+}
+
+.maintitle button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    padding: 50px;
+}
+
